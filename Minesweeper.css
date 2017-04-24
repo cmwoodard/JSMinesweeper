@@ -1,0 +1,28 @@
+#gameContainer{
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+}
+#boardContainer{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap; 
+    user-select: none;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    border: 1px solid black;
+}
+
+.cell{
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+}
+
+.inactive{
+    background-color: royalblue;
+}
+.inactive:hover{
+    background-color: lightblue;
+}
